@@ -9,5 +9,6 @@
         <module name="ConcurrentLearning" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
   </component>
 </project>
