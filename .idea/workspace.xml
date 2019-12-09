@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="902faf5e-0d93-4dfd-a668-db6f63bb8ecb" name="Default Changelist" comment="basic configuration">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadPool/ParallelStreamAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadPool/ThreadPoolExecutorTest.java" afterDir="false" />
+    <list default="true" id="902faf5e-0d93-4dfd-a668-db6f63bb8ecb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrency/threadPool/ForkJoinPoolTest$AddTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/concurrency/threadPool/ForkJoinPoolTest$AddTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrency/threadPool/ForkJoinPoolTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/concurrency/threadPool/ForkJoinPoolTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrency/threadPool/ParallelStreamAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+            <state relative-caret-position="216">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,9 +147,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="255" />
-    <option name="y" value="166" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="521" />
+    <option name="y" value="122" />
     <option name="width" value="1375" />
     <option name="height" value="830" />
   </component>
@@ -223,7 +223,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575897778572" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575897837800" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -334,7 +334,7 @@
       <workItem from="1574823775452" duration="18045000" />
       <workItem from="1574922552475" duration="13840000" />
       <workItem from="1575291336302" duration="855000" />
-      <workItem from="1575376406260" duration="18945000" />
+      <workItem from="1575376406260" duration="19197000" />
     </task>
     <task id="LOCAL-00001" summary="basic configuration">
       <created>1574670528739</created>
@@ -350,17 +350,24 @@
       <option name="project" value="LOCAL" />
       <updated>1574692089075</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="basic configuration">
+      <created>1575897823199</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575897823200</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87612000" />
+    <option name="totallyTimeSpent" value="87864000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="417" y="98" width="1100" height="664" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24798928" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3550864" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -375,7 +382,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -840,8 +847,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrency/threadPool/ParallelStreamAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        <state relative-caret-position="216">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
